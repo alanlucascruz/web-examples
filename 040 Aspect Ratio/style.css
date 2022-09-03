@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  background: #020e26;
+  color: #ffffff;
+  height: 98vh;
+}
+.container {
+  margin-left: 16px;
+}
+
+img {
+  width: 500px;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+}
+
+.aspect-ratio-auto {
+  aspect-ratio: auto;
+}
+.aspect-ratio-1-1 {
+  aspect-ratio: 1 / 1;
+}
+.aspect-ratio-4-3 {
+  aspect-ratio: 4 / 3;
+}
+.aspect-ratio-16-9 {
+  aspect-ratio: 16 / 9;
+}
+.aspect-ratio-21-9 {
+  aspect-ratio: 21 / 9;
+}

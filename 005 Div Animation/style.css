@@ -1,0 +1,96 @@
+* {
+  font-family: "Poppins";
+}
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+}
+
+div {
+  background-color: #ffffff;
+  color: #252525;
+  border-radius: 6px;
+  padding: 16px;
+  padding-top: 224px;
+  width: 256px;
+  overflow: hidden;
+  transform: translate(0);
+  transition: 0.6s;
+}
+
+div h2 {
+  text-transform: capitalize;
+}
+
+div h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 48px;
+}
+
+div::before {
+  content: "";
+  position: absolute;
+  top: -90px;
+  left: -120px;
+  z-index: -1;
+  background: linear-gradient(to right, #00df6f, #00ff7f);
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  animation: 4s animation-div-before infinite ease-in-out;
+}
+
+div::after {
+  content: "";
+  position: absolute;
+  top: -110px;
+  right: -100px;
+  z-index: -1;
+  background: linear-gradient(to right, #6a00ff, #00ff7f);
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  opacity: 0.9;
+  animation: 4s animation-div-after infinite ease-in-out;
+}
+
+@keyframes animation-div-before {
+  0% {
+    top: -90px;
+    left: -120px;
+  }
+  50% {
+    top: -65px;
+    left: -130px;
+  }
+  100% {
+    top: -90px;
+    left: -120px;
+  }
+}
+
+@keyframes animation-div-after {
+  0% {
+    top: -110px;
+    right: -100px;
+  }
+  50% {
+    top: -120px;
+    right: -120px;
+  }
+  100% {
+    top: -110px;
+    right: -100px;
+  }
+}

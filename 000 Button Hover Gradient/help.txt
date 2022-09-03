@@ -1,0 +1,3 @@
+#00DF6F | 0, 223, 111 Verde Principal
+#00FF7F | 0, 255, 127 Verde Claro
+#2F2F2F | 47, 47, 47 Preto

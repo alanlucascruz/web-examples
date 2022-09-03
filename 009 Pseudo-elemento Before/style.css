@@ -1,0 +1,29 @@
+* {
+  font-family: 'Poppins';
+}
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+}
+
+.container {
+  color: #252525;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 6px 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+a::before {
+  content: "Clique ";
+}

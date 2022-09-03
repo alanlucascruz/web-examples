@@ -1,0 +1,56 @@
+* {
+  font-family: "Roboto";
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #020e26;
+}
+
+button {
+  font-size: 1.5em;
+  width: 300px;
+  height: 64px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 48px;
+  transition: 1.5s;
+}
+
+button i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding-top: 4px;
+  font-size: 0;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 1.5s;
+}
+
+button.clicked {
+  width: 64px;
+  border-color: #35f039;
+}
+
+button.clicked span {
+  display: none;
+}
+
+button.clicked i {
+  position: relative;
+  color: #35f039;
+  font-size: 1.5em;
+  opacity: 1;
+}

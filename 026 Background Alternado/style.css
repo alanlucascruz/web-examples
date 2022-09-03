@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #020e26;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  height: 90vh;
+}
+
+ul {
+  border-radius: 4px;
+  width: 176px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 8px 16px;
+}
+
+ul li:first-child {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+ul li:last-child {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+ul li:nth-child(odd) {
+  background-color: #36a6bf;
+}
+
+ul li:nth-child(even) {
+  background-color: #2b869b;
+}

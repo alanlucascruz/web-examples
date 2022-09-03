@@ -1,0 +1,38 @@
+* {
+  font-family: 'Poppins';
+}
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+}
+
+.container {
+  color: #252525;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 6px 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-weight: 400;
+}
+
+ul .item-1::before, ul .item-2::before, ul .item-3::before {
+  content: url(check.png);
+  margin-right: 6px;
+}
+
+ul .item-4::before, ul .item-5::before {
+  content: url(cancel.png);
+  margin-right: 6px;
+}

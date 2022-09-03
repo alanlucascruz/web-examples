@@ -1,0 +1,22 @@
+html, body {
+  background-color: #252525;
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.container {
+  margin-top: 64px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-top: 16px;
+    ;
+  }
+}
+
+img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}

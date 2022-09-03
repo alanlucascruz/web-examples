@@ -1,0 +1,119 @@
+* {
+  font-family: 'Poppins';
+}
+
+html, body {
+  background-color: #252525;
+  color: #fff;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  margin: 16px;
+}
+
+/* FORECAST SECTION */
+
+#forecast .title {
+  margin-left: 16px;
+}
+
+#forecast .title h2 {
+  font-size: 42px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#forecast .title h4 {
+  font-size: 18px;
+  font-weight: 200;
+  margin: 0;
+  margin-top: -6px;
+}
+
+@media (max-width: 600px) {
+  #forecast .title h2 {
+    font-size: 32px;
+  }
+  #forecast .title h4 {
+    font-size: 14px;
+  }
+}
+
+#forecast .content {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#forecast .card {
+  display: flex;
+  padding: 28px 32px 8px 36px;
+  margin: 32px 16px 32px 16px;
+  border-radius: 24px;
+  box-shadow: 7px 7px 12px #1e1e1e, -7px -7px 12px #2c2c2c;
+}
+
+#forecast .card .col-left {
+  margin-right: 32px;
+}
+
+#forecast .card h4 {
+  font-size: 21px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#forecast .card h2 {
+  font-size: 76px;
+  font-weight: 200;
+  margin: 0;
+}
+
+#forecast .card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#forecast .card ul li {
+  font-size: 18px;
+  margin: 4px 0;
+}
+
+#forecast .card ul li:first-child {
+  margin-top: 0;
+}
+
+#forecast .card ul li:last-child {
+  margin-bottom: 0;
+}
+
+#forecast .card ul i {
+  margin-right: 4px;
+}
+
+/* FORECAST SCROLLBAR CUSTOM */
+
+#forecast .content::-webkit-scrollbar {
+  height: 10px;
+}
+
+#forecast .content::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+#forecast .content::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 5px;
+}
+
+#forecast .content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

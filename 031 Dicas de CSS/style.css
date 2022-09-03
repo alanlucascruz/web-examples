@@ -1,0 +1,16 @@
+* {
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #020e26;
+  color: #fff;
+}
+
+h1 {
+  background-image: linear-gradient(to right, #3bd9d9, #b527cf);
+  width: fit-content;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #020e26;
+  font-family: "Roboto", sans-serif;
+  height: 90vh;
+}
+
+a {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16pt;
+  padding: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transform: translate(0);
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  top: 36px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, #b527cf, #8035f0);
+  transform: scaleX(0.16);
+  transition: 0.4s ease;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+}

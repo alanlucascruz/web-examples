@@ -1,0 +1,287 @@
+* {
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+html, body {
+  min-height: 100vh;  
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f2f2f;
+  color: #ffffff;
+  margin: 12;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 325px;
+  border: 12px solid #202020;
+  border-radius: 56px;
+  background: linear-gradient(to bottom, rgb(25, 25, 25) 0%, rgb(35, 35, 35) 70%, rgb(44, 44, 44) 100%);
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 80px;
+  background-color: rgb(42, 42, 42);
+  border-top-left-radius: 44px;
+  border-top-right-radius: 44px;
+  padding: 0 18px;
+  padding-top: 6px;
+  box-shadow: 0 5px 10px -10px rgb(20, 20, 20);
+}
+
+.header .avatar {
+  display: flex;
+  align-items: center;
+}
+
+.header .avatar img {
+  height: 42px;
+  width: 42px;
+  margin-right: 16px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(20, 20, 20), -5px -5px 10px rgb(40, 40, 40);
+}
+
+.header .avatar span {
+  color: #a1a1a1;
+  font-weight: 500;
+}
+
+.header .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header .buttons a {
+  color: #ffffff;
+  padding: 8px 12px;
+  margin-left: 12px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgb(20, 20, 20), -5px -5px 10px rgb(40, 40, 40);
+}
+
+.line {
+  content: "";
+  height: 4px;
+  background: linear-gradient(to right, #00FF7F 0%, #FF7F00 60%, #00DF6F 75%, #FF2A00 93%);
+}
+
+/* Body */
+
+.body {
+  flex: 1;
+  padding: 0 16px;
+}
+
+/* Body Graphic */
+
+.body .graphic {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.body .graphic .graphic-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(39, 39, 39);
+  border: 16px solid rgb(44, 44, 44);
+  box-shadow: 10px 10px 20px rgb(20, 20, 20), -10px -10px 20px rgb(37, 37, 37);
+}
+
+.body .graphic .legend {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+
+.body .graphic h4 {
+  color: #a1a1a1;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+.body .graphic h2 {
+  color: #00FF7F;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.body .graphic h2 span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.body .graphic svg {
+  transform: rotate(132deg);
+}
+
+.body .graphic .success {
+  stroke: #00DF6F;
+  stroke-dasharray: 370;
+  stroke-linecap: round;
+  stroke-width: 10;
+  fill: none;
+}
+
+.body .graphic .warning {
+  stroke: #FF7F00;
+  stroke-dasharray: 425;
+  stroke-linecap: round;
+  stroke-width: 10;
+  fill: none;
+}
+
+/* Body Buttons */
+
+.body .buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+}
+
+.body .buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(20, 20, 20), -5px -5px 10px rgb(40, 40, 40);
+}
+
+.body .buttons h6 {
+  color: #a1a1a1;
+  margin: 0;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* Body Cards */
+
+.body .card {
+  margin-top: 24px;
+  border-radius: 16px;
+  color: #a1a1a1;
+  box-shadow: inset 5px 5px 10px rgb(25, 25, 25), inset -5px -5px 10px rgb(37, 37, 37);
+}
+
+.body .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  border-bottom: 1px solid rgb(20, 20, 20);
+}
+
+.body .card .card-header h6 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.body .card .card-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+  ;
+}
+
+.body .card .description {
+  display: flex;
+  align-items: center;
+}
+
+.body .card .description i {
+  width: 32px;
+  font-size: 18px;
+}
+
+.body .card .description h4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.body .card .description h6 {
+  margin: 0;
+  font-weight: 500;
+  color: #777777;
+  font-size: 11px;
+}
+
+.body .card .value {
+  display: flex;
+  align-items: center;
+}
+
+.body .card .value h4 {
+  margin: 0;
+  font-weight: 500;
+  color: #FF7F00;
+  font-size: 12px;
+}
+
+/* Nav Bottom */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90px;
+  padding: 0 8px;
+  background-color: rgb(44, 44, 44);
+  border-bottom-left-radius: 44px;
+  border-bottom-right-radius: 44px;
+  box-shadow: 0 -5px 10px -10px rgb(20, 20, 20);
+}
+
+.nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #a1a1a1;
+  text-decoration: none;
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.nav a.select {
+  color: #00FF7F;
+  box-shadow: inset 5px 5px 10px rgb(30, 30, 30), inset -5px -5px 10px rgb(40, 40, 40);
+}
+
+.nav a h6 {
+  color: #a1a1a1;
+  font-weight: 500;
+  font-size: 8px;
+  margin: 0;
+}

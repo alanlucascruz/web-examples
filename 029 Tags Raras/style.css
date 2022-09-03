@@ -1,0 +1,26 @@
+* {
+  font-family: "Roboto";
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #020e26;
+}
+
+.container {
+  max-width: 768px;
+}
+
+meter::-webkit-meter-even-less-good-value {
+  background: #b527cf;
+}
+
+meter::-webkit-meter-suboptimum-value {
+  background: #ff9500;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: #35f039;
+}

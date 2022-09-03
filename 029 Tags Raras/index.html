@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avance Dev • Alan Cruz</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <p>Plutão <del>sempre foi</del> <ins>não é</ins> um planeta.</p>
+
+      <p>
+        A <abbr title="Organização Mundial da Saúde">OMS</abbr> divulgou novos
+        dados.
+      </p>
+
+      Nível de Bateria:
+      <meter
+        min="0"
+        max="100"
+        low="30"
+        high="60"
+        optimum="70"
+        value="50"
+      ></meter>
+
+      <br /><br />
+
+      Uploading: <progress max="100" value="70"></progress>
+
+      <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius
+        tincidunt dui. Ut in libero in erat vestibulum venenatis. Lorem ipsum
+        dolor sit amet, consectetur adipiscing elit.
+      </blockquote>
+
+      <details>
+        <summary>JavaScript</summary>
+        JavaScript é uma linguagem de programação interpretada estruturada, de
+        script em alto nível com tipagem dinâmica fraca e multiparadigma.
+      </details>
+
+      <details open>
+        <summary>Framework</summary>
+        Um framework em desenvolvimento de software, é uma abstração que une
+        códigos comuns entre vários projetos de software provendo uma
+        funcionalidade genérica.
+      </details>
+
+      <br />
+
+      <label for="car-make">Selecione uma marca de carro:</label>
+      <input
+        list="car-makes"
+        id="car-make"
+        name="car-makes"
+        placeholder="Selecione..."
+      />
+      <datalist id="car-makes">
+        <option value="BMW"></option>
+        <option value="Tesla"></option>
+        <option value="Toyota"></option>
+        <option value="Volkswagen"></option>
+        <option value="Ford"></option>
+      </datalist>
+
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </div>
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
