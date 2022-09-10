@@ -1,0 +1,53 @@
+* {
+  font-family: "Roboto";
+}
+
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #020e26;
+  color: #ffffff;
+}
+
+.container {
+  width: 512px;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+.container div img {
+  width: 72px;
+  padding: 8px;
+  transition: 2s;
+}
+
+.container:hover div img {
+  margin-left: 424px;
+}
+
+.container div.linear img {
+  transition-timing-function: linear;
+}
+
+.container div.ease img {
+  transition-timing-function: ease;
+}
+
+.container div.ease-in img {
+  transition-timing-function: ease-in;
+}
+
+.container div.ease-out img {
+  transition-timing-function: ease-out;
+}
+
+.container div.ease-in-out img {
+  transition-timing-function: ease-in-out;
+}
+
+.container div.cubic-bezier img {
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
