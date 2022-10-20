@@ -1,29 +1,27 @@
-const myArray = [1, 2, 3, 4];
+[1, 2, 3, 4].at(2); // 3
 
-myArray.at(2); // 3
+[1, 2, 3, 4].push(5); // [1, 2, 3, 4, 5]
 
-myArray.push(5); // [1, 2, 3, 4, 5]
+[1, 2, 3, 4].pop(); // [1, 2, 3]
 
-myArray.pop(); // [1, 2, 3]
+[1, 2, 3, 4].fill(1); // [1, 1, 1, 1]
 
-myArray.fill(1); // [1, 1, 1, 1]
+[1, 2, 3, 4].join(" "); // "1 2 3 4" → string
 
-myArray.join(" "); // "1 2 3 4" → string
+[1, 2, 3, 4].shift(); // [2, 3, 4]
 
-myArray.shift(); // [2, 3, 4]
+[1, 2, 3, 4].unshift(0); // [0, 1, 2, 3, 4];
 
-myArray.unshift(0); // [0, 1, 2, 3, 4];
+[1, 2, 3, 4].reverse(); // [4, 3, 2, 1]
 
-myArray.reverse(); // [4, 3, 2, 1]
+[1, 2, 3, 4].includes(4); // true
 
-myArray.includes(4); // true
+[1, 2, 3, 4].map((item) => 2 * item); // [2, 4, 6, 8]
 
-myArray.map((item) => 2 * item); // [2, 4, 6, 8]
+[1, 2, 3, 4].filter((item) => item > 2); // [3, 4]
 
-myArray.filter((item) => item > 2); // [3, 4]
+[1, 2, 3, 4].find((item) => item > 2); // 3
 
-myArray.find((item) => item > 2); // 3
+[1, 2, 3, 4].every((item) => item < 5); // true
 
-myArray.every((item) => item < 5); // true
-
-const a = myArray.findIndex((item) => item === 3); // 2
+[1, 2, 3, 4].findIndex((item) => item === 3); // 2
