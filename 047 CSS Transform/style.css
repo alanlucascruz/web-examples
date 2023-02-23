@@ -1,23 +1,42 @@
-* {
-  font-family: "Roboto";
-}
-
 html,
 body {
   height: 100%;
-  overflow: hidden;
 }
-
 body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 24px;
   background-color: #020e26;
+  font-family: "Roboto";
+  margin: 0;
 }
 
-h1 {
-  font-size: 72px;
-  background: linear-gradient(270deg, #b527cf, #3bd9d9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.item {
+  height: 48px;
+  width: 48px;
+  background: #3bd9d9;
+  transition: 0.5s;
+}
+.item-1:hover {
+  transform: scale(0.75);
+}
+.item-2:hover {
+  transform: scaleX(0.5);
+}
+.item-3:hover {
+  transform: rotate(45deg);
+}
+.item-4:hover {
+  transform: skewX(-25deg);
+}
+.item-5:hover {
+  transform: skew(20deg, 5deg);
+}
+.item-6:hover {
+  transform: translate(5px, 12px);
+}
+.item-7:hover {
+  transform: matrix(0.7, -0.5, 0.5, 0.4, 0.5, 0.7);
 }
