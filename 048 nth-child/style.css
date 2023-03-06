@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #020e26;
+  font-family: "Roboto";
+  margin: 0;
+}
+.item {
+  margin-bottom: 12px;
+}
+.item div {
+  display: inline-block;
+  background: #3bd9d9;
+  opacity: 0.8;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: 0.25s;
+}
+.item-1:hover div:first-child {
+  background: #b527cf;
+}
+.item-2:hover div:last-child {
+  background: #b527cf;
+}
+.item-3:hover div:nth-child(2) {
+  background: #b527cf;
+}
+.item-4:hover div:nth-last-child(2) {
+  background: #b527cf;
+}
+.item-5:hover div:nth-child(odd) {
+  background: #b527cf;
+}
+.item-6:hover div:nth-child(even) {
+  background: #b527cf;
+}
+.item-7:hover div:nth-child(4n) {
+  background: #b527cf;
+}
+.item-8:hover div:nth-child(3n - 1) {
+  background: #b527cf;
+}
+.item-9:hover div:nth-child(3n + 1) {
+  background: #b527cf;
+}
+.item-10:hover div:nth-child(n + 4) {
+  background: #b527cf;
+}
