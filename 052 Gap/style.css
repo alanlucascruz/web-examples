@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #020e26;
+  font-family: "Roboto";
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 350px;
+  gap: 8px;
+}
+.box {
+  background-color: #3bd9d9;
+  height: 64px;
+  width: 64px;
+  border-radius: 8px;
+  border: 1px solid #212121;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.options div {
+  background-color: #8035f0;
+  color: #ffffff;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.3s;
+}
+.options div:hover {
+  background-color: #b527cf;
+}

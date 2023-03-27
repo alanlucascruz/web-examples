@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px;
+  background-color: #282a36;
+  font-family: "Roboto";
+  margin: 0;
+}

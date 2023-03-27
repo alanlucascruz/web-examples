@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  background-color: #020e26;
+  font-family: "Roboto";
+  margin: 0;
+}
+.container {
+  display: flex;
+  gap: 64px;
+  padding: 64px;
+  background-color: #ffffff;
+}
+.item {
+  background-color: #8035f0;
+  height: 150px;
+  aspect-ratio: 4/3;
+}
+.item-1 {
+  box-shadow: 16px 16px #212121;
+}
+.item-2 {
+  box-shadow: 16px 16px 24px #212121;
+}
+.item-3 {
+  box-shadow: 16px 16px 16px 16px #212121;
+}
+.item-4 {
+  box-shadow: inset 0px 0px 16px 8px #212121;
+}
+.item-5 {
+  box-shadow: -16px -16px 8px #212121;
+}
