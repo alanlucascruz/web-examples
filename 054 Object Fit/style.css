@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: grid;
+  place-items: center;
+  background-color: #020e26;
+  font-family: "Roboto";
+  margin: 0;
+}
+.container {
+  display: grid;
+}
+.buttons {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.buttons button {
+  font-size: 16px;
+  font-family: inherit;
+  background: #c5c5c5;
+  text-align: start;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: #3bd9d9;
+}
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+  object-fit: cover;
+}

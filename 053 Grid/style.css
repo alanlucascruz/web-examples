@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: grid;
+  place-items: center;
+  background-color: #020e26;
+  font-family: "Roboto";
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: 64px 128px 64px 64px;
+  gap: 8px;
+}
+.box {
+  background-color: #3bd9d9;
+  border-radius: 8px;
+  border: 1px solid #212121;
+  height: 48px;
+}
