@@ -1,51 +1,12 @@
-* {
-  box-sizing: border-box;
+body {
+  background-color: #020e26;
+}
+h2 {
+  color: #ffffff;
 }
 html,
 body {
   height: 100%;
-}
-body {
   display: grid;
   place-items: center;
-  background-color: #020e26;
-  font-family: "Roboto";
-  margin: 0;
-}
-
-div {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  background-color: #35f039;
-  animation-name: exemplo;
-  animation-duration: 4s;
-}
-
-@keyframes exemplo {
-  0% {
-    background-color: #35f039;
-    left: 0px;
-    top: 0px;
-  }
-  25% {
-    background-color: #ff9500;
-    left: 200px;
-    top: 0px;
-  }
-  50% {
-    background-color: #b527cf;
-    left: 200px;
-    top: 200px;
-  }
-  75% {
-    background-color: #d7d7d7;
-    left: 0px;
-    top: 200px;
-  }
-  100% {
-    background-color: #35f039;
-    left: 0px;
-    top: 0px;
-  }
 }
