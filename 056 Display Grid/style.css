@@ -1,0 +1,31 @@
+body {
+  background-color: #020e26;
+  font-family: "Roboto";
+}
+
+.grid-container {
+  display: grid;
+  padding: 16px;
+  background-color: #0055ff;
+}
+
+.grid-container {
+  grid-template-columns: auto auto auto;
+}
+
+.grid-container {
+  gap: 16px;
+}
+
+.grid-container div {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 24px;
+  font-size: 32px;
+  text-align: center;
+  border: 2px solid #ffffff;
+}
+
+.grid-container .item-1 {
+  grid-row: 2 / 4;
+}
